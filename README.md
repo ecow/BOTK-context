@@ -24,9 +24,6 @@ Some code examples in samples directory.
 ## BOTK\Context package documentation
 
 
-
-<div class="metadata"><dl><!-- __METADATA --><dt>Author:</dt><dd id="creator"><address> Enrico Fagnoni - [E-Artspace](http://www.e-artspace.com/home/about)</address></dd></dl></div><section id="abstract">
-
 ### Abstract
 
 This package exports a set of class to manage the context of a RESTful request.
