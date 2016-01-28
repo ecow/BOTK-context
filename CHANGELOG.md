@@ -25,6 +25,6 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [changelog
 - Moved from google code
 - Code, doc and tests completed
 
-[Unreleased]:  https://github.com/linkeddatacenter/BOTK-context/compare/HEAD...4.0.2
-[4.0.2]:  https://github.com/linkeddatacenter/BOTK-context/compare/4.0.2...4.0.1
+[Unreleased]:  https://github.com/linkeddatacenter/BOTK-context/compare/4.0.2...HEAD
+[4.0.2]:  https://github.com/linkeddatacenter/BOTK-context/compare/4.0.1...4.0.2
 [4.0.1]:  https://github.com/linkeddatacenter/BOTK-context/compare/4.0.0...4.0.1
