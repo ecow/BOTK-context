@@ -64,7 +64,7 @@ class Context
             // Let error management take care of errors...
             $iniFile = "$this->configDir/$name.ini";
             $inifilesDB[$name]= file_exists($iniFile)
-                ?parse_ini_file($iniFile, true)
+                ?parse_ini_file($iniFile)
                 :array();
             if (!is_array($inifilesDB[$name])){
                 throw new \InvalidArgumentException("Invalid configuration file in $iniFile.",404);                

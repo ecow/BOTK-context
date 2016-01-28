@@ -2,8 +2,8 @@
 	"name": "botk/context",
     "description": "ini file management, sanitization, validation",
     "type": "library",
-    "license": "mit",
-    "homepage": "http://ontology.it/tools/botk4/context/",
+    "license": "MIT",
+    "homepage": "https://github.com/linkeddatacenter/BOTK-context",
     "keywords": ["E-Artspace", "LinkedData.Center", "BOTK", "Sanitization", "Validation"],
     "autoload": {
         "psr-0": {
@@ -17,6 +17,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4.0"
     }
 }
