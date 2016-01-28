@@ -2,9 +2,9 @@
 	"name": "botk/context",
     "description": "ini file management, sanitization, validation",
     "type": "library",
-    "license": "GPL-3.0+",
+    "license": "mit",
     "homepage": "http://ontology.it/tools/botk4/context/",
-    "keywords": ["E-Artspace", "BOTK", "Sanitization", "Validation"],
+    "keywords": ["E-Artspace", "LinkedData.Center", "BOTK", "Sanitization", "Validation"],
     "autoload": {
         "psr-0": {
             "BOTK\\Context": "library/"
