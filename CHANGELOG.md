@@ -4,7 +4,6 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [changelog
 
 ## [Unreleased]
 
-
 ## [4.0.2] - 2016-01-28
 ### Added
 - vagrant support
@@ -12,7 +11,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [changelog
 - badge management
 - trevis-ci support
 - scrutinizer support
-
+### Changed
+- doc translated in markdown
 
 ## [4.0.1] - 2016-01-28
 ### Added
