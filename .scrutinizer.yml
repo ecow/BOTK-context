@@ -1,7 +1,5 @@
 filter:
     excluded_paths:
-        - 'public/*'
-        - 'tests/*'
         - 'test/*'
         - 'vendor/*'
         - 'samples/*'

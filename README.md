@@ -49,8 +49,7 @@ Add following dependances to **composer.json** file in your project root:
         "require": {
             "botk/context": "*"
         }
-    }</section>
-    <section>
+    }
 
 ### The Context class
 
@@ -128,7 +127,7 @@ Some validators shold be boring to write, here are a set of predefined shortcuts
 Even with validator shortcuts, a call to getValue method can be too verbose, here are some shortcut you can use
         for common task:
 
-*   getString($varName,$default = null):&nbsp; same as
+*  getString($varName,$default = null):&nbsp; same as
               getValue($varName,$default, null, FILTER_SANITIZE_STRING);
 *  getURI($varName,$default = null):&nbsp; same as
               getValue($varName,$default, self::STRING('/.+/'), FILTER_SANITIZE_URL)
@@ -139,8 +138,7 @@ The PagedResource class is a facility to manage the context of a resource whose 
         variables to drive pagination processing. It is a specialization of Context class and like Context should be
         considered as a read-only data structure.
 
-      The resource paging context is inspired on W3C's Linked Data Platform Paging specifications .Here are some
-      imported definitions:
+The resource paging context is inspired on W3C's Linked Data Platform Paging specifications .Here are some imported definitions:
 <dl class="glossary"><dt><dfn>Paged resource</dfn></dt><dd>A resource&nbsp; whose representation may be too large to fit in a single HTTP response, for which a server
           offers a sequence of single-page resources. A paged <var>P</var> is broken into a sequence of pages
           (single-page resources) <var>P<sub>1</sub>, P<sub>2</sub>, ...,P<sub>n</sub></var>, the representation of
