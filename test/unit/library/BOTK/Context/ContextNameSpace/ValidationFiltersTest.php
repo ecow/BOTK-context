@@ -45,7 +45,8 @@ class ValidationFiltersTest extends PHPUnit_Framework_TestCase
         $p = $this->ns->getValue('p4');
         $this->assertEquals($p,array(1,2,'ff'));
     }
-       
+	
+	
     /**
      * @expectedException \Exception
      */   
@@ -150,6 +151,14 @@ class ValidationFiltersTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($p,20);
     }
       
+
+ 
+    public function testNullAsDefault()
+    {
+        $p = $this->ns->getValue('pnotexists',V::NULL_AS_DEFAULT);
+        $this->assertNull($p);
+    }
+
 
     /**
      * @expectedException \InvalidArgumentException

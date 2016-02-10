@@ -30,6 +30,7 @@ use \InvalidArgumentException;
 class ContextNameSpace
 {
     const MANDATORY = null;                 // just syntactic sugar for null value
+    const NULL_AS_DEFAULT = '__null__';		// a string that allow null to be used as a default falue (by default null means no default)
        
     protected $varStore = array();
     
@@ -104,6 +105,8 @@ class ContextNameSpace
         $sourceValue = isset($this->varStore[$varName])?$this->varStore[$varName]:$default;
         $scalarValue = is_scalar($sourceValue);
 
+		// manage NULL_AS_DEFAULT
+		if($sourceValue===self::NULL_AS_DEFAULT) {$sourceValue=null;}
         
         // sanitize the variable value (if requested )
         if (is_null($sanitizer)) {
@@ -126,7 +129,6 @@ class ContextNameSpace
             throw new InvalidArgumentException("Invalid sanitizer filter on $varName.",400);            
         }
  
-        assert(isset($sanitizedValue));
         //Now we are sure that variable has a sanitized value: validate it (if requested )
         
         if (is_null($validator)) {
