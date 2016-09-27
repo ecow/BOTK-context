@@ -1,3 +1,11 @@
+WARNING
+=======
+
+The support to this project is now discontinued.
+Update your links.
+
+Find the old version as tagged branch. 
+
 # BOTK\Context
 [![Build Status](https://img.shields.io/travis/linkeddatacenter/BOTK-context.svg?style=flat-square)](http://travis-ci.org/linkeddatacenter/BOTK-context)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/linkeddatacenter/BOTK-context.svg?style=flat-square)](https://scrutinizer-ci.com/g/linkeddatacenter/BOTK-context)
